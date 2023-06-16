@@ -1,0 +1,455 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-superior {
+    background-color: #222222;
+    color: #f3f3fe;
+    }
+    
+.lista-superior {
+    display: flex;
+    margin-left: 1630px;
+    list-style: none;
+    }
+
+.contenedor-principal {
+    color: #ffffff;
+    background-color: #f0a83e;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-principal span {
+    color: #3C2313;
+}
+
+.lista-contenedor-principal {
+    list-style: none;
+    display: flex;
+    margin-left: 990px;
+}
+
+.lista-contenedor-principal span {
+color: #f3f3fe;
+}
+
+main {
+    display: block;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.banner {
+    background-image:url('../img/bowl-and-pet-daities-on-green-background\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.texto-central {
+    font-size: 40px;
+    height: 60px;
+    background-color: #ffffff;
+    color: #3c2313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.texto-central2 {
+    font-size: 25px;
+    color: #3c2313;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.texto-central3 {
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #f0a83e;
+    border-radius: 5px;
+    height: 65px;
+    width: 215px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-productos-destacados {
+    display: block;
+    margin: auto;
+}
+
+.destacados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu-destacados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.imagenes-destacadas {
+    color: #3c2313;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.imagenes-destacadas-precio {
+    color: #F0A83E;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 34px;
+}
+
+.enviar-resetear {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.enviar-resetear button {
+    margin:48px 0 45px 0;
+    width: 199px;
+    height: 45px;
+    left: calc(50% - 199px/2 - 102.5px);
+    bottom: 480px;
+    background: #8A8787;
+    border-radius: 25px;
+    border: none;
+    color: #FFFFFF;;
+    margin: 48px 5px 45px 5px;
+}
+
+
+.enviar-resetear .Enviar{
+background: #F0A83E;
+}
+
+section h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 34px;
+}
+
+span input {
+    font-size: 9px;
+    width: 298px;
+    height: 40px;
+    background: #3C2313;
+    border-radius: 15px;
+    margin: 5px 0 0 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer .barra-suscripcion {
+    height: 100px;
+    background-color: #F0A83E;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+
+footer .barra-suscripcion div {
+    display: flex;
+    align-items: center;
+}
+
+.barra-suscripcion div img {
+    height: 40px;
+}
+
+.barra-suscripcion div p {
+    font-size: 30px;
+    margin-left: 15px;
+    color: #FBFAF6;
+}
+
+.barra-suscripcion div input {
+    height: 70px;
+    width: 420px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.barra-suscripcion div input {
+    color:  #8A8787;
+    padding-left: 15px;
+    height: 40px;
+}
+
+.barra-suscripcion div button {
+    width: 120px;
+    height: 34px;
+    border-radius: 25px;
+    border: none;
+    background-color: #3C2313;
+    color: #FBFAF6;
+    cursor: pointer;
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0 70px 0 70px;
+}
+.footer-menu .logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.footer-menu {
+    background-color: #3C2313;
+    height: 284px;
+}
+
+
+.logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 11px;
+    font-size: 25px;
+    }
+
+.logo2 img{
+    padding: 0 2px 0 2px;
+    height: 25px;
+    width: auto;
+}
+
+.logo2 span{
+    color:#F0A83E;
+}
+
+.informacion {
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 70px;
+}
+
+.datos p {
+    color: white;
+}
+
+.datos span {
+    color: #8A8787;
+}
+
+.datos .logo {
+    align-self: center;
+    margin: 10px;
+}
+
+.icono-datos {
+    border-radius: 29.5px;
+    height: 66px;
+    width: 66px;
+}
+.icono-datos img{
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.direccion,
+.numero-tel,
+.correo {
+    display: flex;
+    align-items: flex-start;
+    margin:23px;
+}
+
+.texto-icono {
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.texto-icono span {
+    font-size: 10px;
+}
+
+.derechos-frontend {
+    font-weight: 700;
+    font-size: 10px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #222222;
+    height: 20px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.contenedor-principal .barra-menu {
+    display: none;
+    }
+
+
+
+@media screen and (min-width: 410px) {
+
+    .banner {
+        height: 200px;
+    }
+
+
+    .imagenes {
+    display: flex;
+    flex-direction: column;
+}
+    .contenedor-superior {
+    display: none;
+}
+
+.lista-contenedor-principal {
+    display: none;
+}
+
+.contenedor-principal .barra-menu {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+    div {
+    display: block;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.barra-suscripcion div p {
+    display: flex;
+    color: #FBFAF6;
+}
+
+.footer-menu {
+    background-color: #3C2313;
+    height: 550px;
+    margin: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+footer .barra-suscripcion {
+    display: block;
+    height: 150px;
+    margin-bottom: 0%;
+}
+
+.barra-suscripcion div p {
+    font-size: 15px;
+}
+
+div {
+    padding: 10px;
+}
+.derechos-frontend {
+    height: 30px;
+}
+
+.texto-central {
+    font-size: 10px;
+    height: 20px;
+}
+
+.texto-central3 {
+    font-size: 16px;
+}
+
+}
+
+
+@media screen and (min-width: 481px) {
+
+    .imagenes {
+    display: flex;
+    flex-direction: row;
+}
+
+.texto-central {
+    font-size: 40px;
+    height: 60px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+footer .barra-suscripcion div {
+    display: flex;
+    align-items: center;
+}
+
+footer .barra-suscripcion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-contenedor-principal {
+    list-style: none;
+    display: flex;
+    margin-left: 970px;
+}
+
+.contenedor-principal .barra-menu {
+    display: none;
+}
+
+.banner {
+    height: 600px;
+}
+
+.texto-central3 {
+    font-size: 25px;
+}
+
+}
